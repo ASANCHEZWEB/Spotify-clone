@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+}
+nav {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: fixed;
+    background-color: #FFF;
+
+}
+nav>img {
+    width: 229px;
+    height: 69px;
+}
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    width: 427px;
+    justify-content: space-between;
+    font-size: 19px;
+}
+.musicForEver {
+    height: 788px;
+    text-align: center;
+    color: white;
+    background-image: url(../images/landing.jpg);
+    background-size: contain;
+}
+.musicForEver>h1 {
+    padding-top: 251px;
+    font-size: 79px;
+    margin-top: 0px;
+}
+.musicForEver>p {
+    font-size: 30px;
+    width: 702px;
+    margin: 0 auto;
+}
+#sectionOne {
+    text-align: center;
+}
+#sectionOne>h1 {
+    font-size: 39px;
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    padding-top: 50px;
+}
+.containerSecOne>div {
+    width: 300px;
+    height: 300px;
+}
+.containerSecOne>div>img {
+    height: 100px;
+}
+.containerSecOne {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    padding-top: 52px;
+    padding-bottom: 114px;
+}
+.containerSecOne>div>h1 {
+    font-size: 24px;
+    color: #00B172;
+}
+.containerSecOne>div>p {
+    padding-top: 43px;
+    font-size: 20px;
+}
+#sectionTwo {
+    font-family: sans-serif;
+    background-color: #00B172;
+    height: 787px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    display: flex;
+}
+#sectionTwo>div>div>h1{
+    width: 500px;
+    font-size: 31px;
+    text-decoration: underline;
+    text-decoration-color: #FFF;
+}
+#sectionTwo>div>div>h2{
+    padding-top: 21px;
+    font-size: 23px;
+}
+#sectionTwo>div>div>p{
+    width: 343px;
+    font-size: 23px;
+    padding-top: 6px;
+}
+#sectionTwo>div>img{
+    width: 347px;
+    padding-top: 122px;
+    height: 615px;
+}
+#sectionTwo>div{
+    display: flex;
+    width: 77%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#sectionTwo>img{
+    width: 137px;
+    height: 137px;
+    position: absolute;
+    left: 45%;
+    top: 1720px;
+}
